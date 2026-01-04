@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Touch - Legal Documents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .language-section {
+            margin-bottom: 30px;
+        }
+        .language-title {
+            color: #34495e;
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        a {
+            display: block;
+            padding: 15px 25px;
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 500;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(52, 152, 219, 0.4);
+        }
+        .korean a {
+            background: linear-gradient(135deg, #9b59b6, #8e44ad);
+        }
+        .korean a:hover {
+            box-shadow: 0 5px 20px rgba(155, 89, 182, 0.4);
+        }
+        .divider {
+            height: 1px;
+            background: #ecf0f1;
+            margin: 25px 0;
+        }
+        .footer {
+            color: #95a5a6;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        .footer p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">📖</div>
+        <h1>Bible Touch</h1>
+        <p class="subtitle">Handwrite the Bible Daily</p>
+
+        <div class="language-section">
+            <div class="language-title">🇺🇸 English</div>
+            <div class="links">
+                <a href="privacy-policy-en.html">Privacy Policy</a>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="language-section korean">
+            <div class="language-title">🇰🇷 한국어</div>
+            <div class="links">
+                <a href="privacy-policy-ko.html">개인정보처리방침</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>HASEGI Inc.</strong></p>
+            <p>Contact: hasegi.project@gmail.com</p>
+            <p>Last Updated: January 2026</p>
+        </div>
+    </div>
+</body>
+</html>
