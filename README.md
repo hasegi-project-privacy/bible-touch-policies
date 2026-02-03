@@ -1,6 +1,6 @@
-# Bible Touch App Policies
+# Bible Voice App Policies
 
-Privacy Policy for Bible Touch - Daily Bible Transcription App
+Privacy Policy for Bible Voice - Daily Bible Transcription App
 
 ## 📁 File Structure
 
@@ -45,7 +45,7 @@ January 4, 2026
 - Organization: HASEGI Inc.
 
 ## 📱 App Information
-- App Name: Bible Touch (성경 필사)
+- App Name: Bible Voice (성경 필사)
 - Platform: Android, iOS
 - Features: Solo Mode, Group Mode, Everyone Mode
 - Languages: 17 languages supported
